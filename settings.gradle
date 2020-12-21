@@ -1,0 +1,3 @@
+include ':timeLogger'
+include ':app'
+rootProject.name = "Class_2021A_AndB_5"

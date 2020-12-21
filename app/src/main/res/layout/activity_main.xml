@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_apiCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Api Call" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_showAllLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Logs" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Session Average" />
+
+    <TextView
+        android:id="@+id/main_LBL_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Hello World!"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+
+
+</LinearLayout>
